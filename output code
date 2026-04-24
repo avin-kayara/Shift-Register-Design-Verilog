@@ -1,0 +1,3 @@
+iverilog -o shift_sim shift_register_tb.v sipo.v piso.v
+vvp shift_sim
+gtkwave shift_register.vcd
