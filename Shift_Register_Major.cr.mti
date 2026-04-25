@@ -1,0 +1,22 @@
+{C:/Users/Hp/OneDrive/Desktop/Shift Register Design/sipo.v} {1 {vlog -work work -stats=none {C:/Users/Hp/OneDrive/Desktop/Shift Register Design/sipo.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module sipo
+
+Top level modules:
+	sipo
+
+} {} {}} {C:/Users/Hp/OneDrive/Desktop/Shift Register Design/shift_register_tb.v} {1 {vlog -work work -stats=none {C:/Users/Hp/OneDrive/Desktop/Shift Register Design/shift_register_tb.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module shift_register_tb
+
+Top level modules:
+	shift_register_tb
+
+} {} {}} {C:/Users/Hp/OneDrive/Desktop/Shift Register Design/piso.v} {1 {vlog -work work -stats=none {C:/Users/Hp/OneDrive/Desktop/Shift Register Design/piso.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module piso
+
+Top level modules:
+	piso
+
+} {} {}}

@@ -1,0 +1,80 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/Hp/OneDrive/Desktop/MUX & DEMUX Design
+vpiso
+Z0 !s110 1777130755
+!i10b 1
+!s100 2IRKWfX9;V;;DUH<e`dJ23
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I:6^aXQM6LgLK?OPDFzTMm3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dC:/Users/Hp/OneDrive/Desktop/Shift Register Design
+Z4 w1777005361
+8C:/Users/Hp/OneDrive/Desktop/Shift Register Design/piso.v
+FC:/Users/Hp/OneDrive/Desktop/Shift Register Design/piso.v
+!i122 9
+L0 2 28
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z6 !s108 1777130755.000000
+!s107 C:/Users/Hp/OneDrive/Desktop/Shift Register Design/piso.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Hp/OneDrive/Desktop/Shift Register Design/piso.v|
+!i113 1
+Z7 o-work work
+Z8 tCvgOpt 0
+vshift_register_tb
+R0
+!i10b 1
+!s100 CiSbATZH8T8DBIR>MaNc@3
+R1
+IEk]]@hBoTXQ0^DYT9FTdK2
+R2
+R3
+R4
+8C:/Users/Hp/OneDrive/Desktop/Shift Register Design/shift_register_tb.v
+FC:/Users/Hp/OneDrive/Desktop/Shift Register Design/shift_register_tb.v
+!i122 10
+L0 3 119
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/Hp/OneDrive/Desktop/Shift Register Design/shift_register_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Hp/OneDrive/Desktop/Shift Register Design/shift_register_tb.v|
+!i113 1
+R7
+R8
+vsipo
+R0
+!i10b 1
+!s100 7>DoYJ:dHaK_l6b`[`TX]1
+R1
+I<DFgaW;^[oAm^X;^N5Uel1
+R2
+R3
+R4
+8C:/Users/Hp/OneDrive/Desktop/Shift Register Design/sipo.v
+FC:/Users/Hp/OneDrive/Desktop/Shift Register Design/sipo.v
+!i122 11
+L0 2 15
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/Hp/OneDrive/Desktop/Shift Register Design/sipo.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Hp/OneDrive/Desktop/Shift Register Design/sipo.v|
+!i113 1
+R7
+R8

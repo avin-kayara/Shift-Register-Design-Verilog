@@ -1,0 +1,68 @@
+# Compile of piso.v was successful.
+# Compile of shift_register_tb.v was successful.
+# Compile of sipo.v was successful.
+# 3 compiles, 0 failed with no errors.
+vsim -gui work.shift_register_tb
+# vsim -gui work.shift_register_tb 
+# Start time: 20:56:05 on Apr 25,2026
+# Loading work.shift_register_tb
+# Loading work.sipo
+# Loading work.piso
+add wave  \
+sim:/shift_register_tb/clk \
+sim:/shift_register_tb/reset \
+sim:/shift_register_tb/serial_in \
+sim:/shift_register_tb/shift_dir \
+sim:/shift_register_tb/sipo_out \
+sim:/shift_register_tb/load \
+sim:/shift_register_tb/parallel_in \
+sim:/shift_register_tb/piso_serial_out \
+sim:/shift_register_tb/piso_state \
+sim:/shift_register_tb/i
+run -all
+# 
+# --- SIPO Shift LEFT ---
+# SIPO SL: serial_in=1 -> parallel_out=00000001
+# SIPO SL: serial_in=0 -> parallel_out=00000010
+# SIPO SL: serial_in=1 -> parallel_out=00000101
+# SIPO SL: serial_in=1 -> parallel_out=00001011
+# SIPO SL: serial_in=0 -> parallel_out=00010110
+# SIPO SL: serial_in=0 -> parallel_out=00101100
+# SIPO SL: serial_in=1 -> parallel_out=01011001
+# SIPO SL: serial_in=1 -> parallel_out=10110011
+# 
+# --- SIPO Shift RIGHT ---
+# SIPO SR: serial_in=1 -> parallel_out=10000000
+# SIPO SR: serial_in=1 -> parallel_out=11000000
+# SIPO SR: serial_in=0 -> parallel_out=01100000
+# SIPO SR: serial_in=0 -> parallel_out=00110000
+# SIPO SR: serial_in=1 -> parallel_out=10011000
+# SIPO SR: serial_in=1 -> parallel_out=11001100
+# SIPO SR: serial_in=0 -> parallel_out=01100110
+# SIPO SR: serial_in=1 -> parallel_out=10110011
+# 
+# --- PISO Shift LEFT (load=10110011) ---
+# PISO loaded: reg_state=10110011
+# PISO SL: serial_out=1 | reg_state=01100110
+# PISO SL: serial_out=0 | reg_state=11001100
+# PISO SL: serial_out=1 | reg_state=10011000
+# PISO SL: serial_out=1 | reg_state=00110000
+# PISO SL: serial_out=0 | reg_state=01100000
+# PISO SL: serial_out=0 | reg_state=11000000
+# PISO SL: serial_out=1 | reg_state=10000000
+# PISO SL: serial_out=1 | reg_state=00000000
+# 
+# --- PISO Shift RIGHT (load=11001010) ---
+# PISO loaded: reg_state=11001010
+# PISO SR: serial_out=0 | reg_state=01100101
+# PISO SR: serial_out=1 | reg_state=00110010
+# PISO SR: serial_out=0 | reg_state=00011001
+# PISO SR: serial_out=1 | reg_state=00001100
+# PISO SR: serial_out=0 | reg_state=00000110
+# PISO SR: serial_out=0 | reg_state=00000011
+# PISO SR: serial_out=1 | reg_state=00000001
+# PISO SR: serial_out=1 | reg_state=00000000
+# ** Note: $finish    : C:/Users/Hp/OneDrive/Desktop/Shift Register Design/shift_register_tb.v(118)
+#    Time: 380 ns  Iteration: 0  Instance: /shift_register_tb
+# 1
+# Break in Module shift_register_tb at C:/Users/Hp/OneDrive/Desktop/Shift Register Design/shift_register_tb.v line 118
